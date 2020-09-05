@@ -74,7 +74,7 @@ func round(i float64) float64 {
 }
 
 func insideWindow(x float64, y float64) bool {
-	return (((0.0 <= x) || (x < maxX)) || ((0.0 <= y) || (y < maxY)))
+	return (((0.0 <= x) && (x < maxX)) && ((0.0 <= y) && (y < maxY)))
 }
 
 type key struct {
