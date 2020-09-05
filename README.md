@@ -16,3 +16,9 @@ go run main.go
 [Left click] - Places cell
 [Enter key] - move 1 generation forward
 ```
+
+## Gameplay
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/foxyblue/game-of-life/master/screenshot.png"/>
+</p>
