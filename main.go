@@ -1,3 +1,23 @@
+/* Classic Conway's Game of Life:
+ *
+ * To calculate each generational step:
+ * 1. While iterating through living cells:
+ *    - Add +1 to n on each adjacent cell.
+ *    - Add living cell and adjacent cell to
+ *      set of known cells.
+ * 2. Iterate though set of known cells while
+ *    applying Conway's set of rules.
+ *
+ * Rules:
+ * 1. Any live cell with fewer than 2 live
+ *    neighbours die.
+ * 2. Any live cell with 2 or 3 live
+ *    neighbours lives on.
+ * 3. Any cell with more then 3 live
+ *    neighbours die.
+ * 4. Dead cells with 3 live neighbours
+ *    becomes a live cell.
+ */
 package main
 
 import (
